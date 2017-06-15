@@ -2,10 +2,32 @@ body{
   max width: 1400px;
   margin-left: 75px;
   margin-right: 75px;
-  background-color: gainsboro;
+  background: rgba(143,188,143,0.5);
 }
 h1{
   text-align: center;
+  font-family: Garamond, serif;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+.head nav{
+  text-align: center;
+  padding: 10px;
+}
+.head a{
+  font-family: Garamond, serif;
+  font-size: 110%;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+.head a:link{
+  color: black;
+}
+.head a:visited{
+  color: black;
+}
+.head a:hover{
+  background:rgba(169,169,169,0.8);
 }
 img{
   display: block;
@@ -13,34 +35,15 @@ img{
   margin: auto;
 }
 p{
-  background-color: beige;
+  font-family: Garamond, serif;
   margin: 20px;
   padding: 20px;
+  background: rgba(250,235,215,0.4)
 }
-#donate{
-  margin: 20px;
-  padding: 20px;
-  background-color: darksalmon;
+#donate p{
+  background: rgba(233,150,122,0.8);
   text-align: center;
 }
-
-#link a {
+#donate a{
   text-decoration: none;
-  text-align: center;
 }
-/*
-@media screen and (max-width: 700px)  {
-  body {
-    max-width: 500px;
-  }
-}
-
-@media screen and (max-width: 701px) and (min-width: 1000px) {
-    body {
-      max-width: 900px;
-  }
- }
-
- @media screen and (min-width: 1001px) and (max-width: 1200px) {
-  }
- }*/

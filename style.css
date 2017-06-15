@@ -28,7 +28,7 @@ p{
   text-decoration: none;
   text-align: center;
 }
-
+/*
 @media screen and (max-width: 700px)  {
   body {
     max-width: 500px;
@@ -43,4 +43,4 @@ p{
 
  @media screen and (min-width: 1001px) and (max-width: 1200px) {
   }
- }
+ }*/

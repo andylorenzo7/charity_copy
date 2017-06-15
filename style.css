@@ -1,0 +1,46 @@
+body{
+  max width: 1400px;
+  margin-left: 75px;
+  margin-right: 75px;
+  background-color: gainsboro;
+}
+h1{
+  text-align: center;
+}
+img{
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+p{
+  background-color: beige;
+  margin: 20px;
+  padding: 20px;
+}
+#donate{
+  margin: 20px;
+  padding: 20px;
+  background-color: darksalmon;
+  text-align: center;
+}
+
+#link a {
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px)  {
+  body {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 701px) and (min-width: 1000px) {
+    body {
+      max-width: 900px;
+  }
+ }
+
+ @media screen and (min-width: 1001px) and (max-width: 1200px) {
+  }
+ }
